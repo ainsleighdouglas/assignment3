@@ -21,7 +21,7 @@ function preload() {
   // load the rest of the images
   // change 5 to match your total number of images
   for (let i = 0; i < 11; i++) {
-    flowers[i] = loadImage('assets/' + i + '.png');
+    flowers[i] = loadImage('assets/' + i + '.PNG');
   }
 }
 
